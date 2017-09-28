@@ -1,0 +1,19 @@
+Thu May  8 15:33:17 CST 2014    v2.0
+----------------------------------------------------------------
+1. add the option -t, to trim the head of reads.
+2. discard reads which has mismatch on fix-seq of barcode.
+
+changed files: UID_type.h fq_read.h main.cc main.h
+
+Thu Apr 25 16:38:27 HKT 2013    v1.1
+----------------------------------------------------------------
+1. fix a major bug, which allow barcode contamination at the end of reads.
+
+Wed Apr 10 21:39:30 CST 2013    v1.0
+----------------------------------------------------------------
+1. add -u option, fetch UID and put it into readID.
+
+Wed Apr 10 18:04:07 CST 2013    v0.1
+----------------------------------------------------------------
+1. first beta vesion.
+2. main function.
